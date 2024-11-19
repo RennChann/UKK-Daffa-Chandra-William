@@ -1,0 +1,249 @@
+* {
+    padding: 0%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    background-color: rgb(226, 175, 113);
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 100px;
+    background-color: rgb(238, 153, 49);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.search img {
+    height: auto;
+    width: 20px;
+}
+
+form input,
+.search {
+    display: flex;
+    border-radius: 10px;
+    margin-right: -100px;
+}
+
+form button,
+.search {
+    margin-left: 150px;
+}
+
+.logo {
+    height: auto;
+    width: 100px;
+    margin-left: 10px;
+}
+
+nav ul {
+    color: black;
+}
+
+
+#hero {
+    display: flex;
+    background-color: rgb(231, 131, 59);
+    padding-bottom: 10px;
+}
+
+.hero {
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;}
+
+.hero-image {
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.hero-content {
+    margin-top: 0%;
+}
+
+.hero-content h2 {
+    margin-right: 100px;
+}
+
+.btn-primary {
+    font-size: medium;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(25, 173, 247);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(8, 243, 243);
+}
+
+#products {
+    text-align: center;
+    background-color: rgb(226, 175, 113);
+    padding: 5px;
+}
+
+.product-list {
+    display: inline-flex;
+    background-color: rgb(219, 154, 75);
+}
+
+.product img {
+    height: auto;
+    width: 200px;
+    background-color: rgb(231, 131, 59);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+
+.product img:hover {
+    width: 150px;
+    height: auto;
+    background-color: rgb(238, 153, 49);
+    border-radius: 10px;
+}
+
+.product {
+    text-align: center;
+    padding: 10px;
+}
+
+#testimonials {
+    text-align: center;
+    justify-items: center;
+    background-color: rgb(226, 175, 113);
+    padding: 10px;
+}
+
+.testimonial-product {
+    display: flex;
+    background-color: rgb(238, 153, 49);
+}
+
+.testimonial {
+    display: inline-block;
+
+}
+
+.testimonial img {
+    width: 100px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px;
+}
+
+#contacts {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact {
+    display: inline-block;
+}
+
+button {
+    display: inline-block;
+    background-color: rgb(238, 153, 49);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    margin-right: 150px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(231, 131, 59);
+}
+
+form input,
+form textarea {
+    display: block;
+    text-align: center;
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
+
+footer {
+    margin-bottom: 10px;
+    background-color: rgb(68, 67, 67);
+    text-align: center;
+}
+
+.social-icons {
+    height: auto;
+    width: 30px;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .btn-primary {
+        margin-bottom: 10px;
+    }
+
+    #products h2 {
+        text-align: center;
+    }
+
+    .product-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial {
+        margin: auto;
+    }
+    form input,
+    form textarea {
+        width: 90%;
+    }
+}
+
+@media (max-width:480px) {
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .product {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .testimonial {
+        width: 100%;
+    }
+}
